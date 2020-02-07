@@ -11,7 +11,7 @@ var config = {
     chapters: [
         {
             id: 'Day-1',
-            title: 'DAY 1: A DAY IN THE CAPITAL, ULAANBAATAR <br/> CENTRALLY LOCATED 4 STAR HOTEL' ,
+            title: 'DAY 1:A DAY IN THE CAPITAL, ULAANBAATAR',
             image: 'https://cdn.greensoft.mn/uploads/users/1492/images/GANDAN.jpg',
             description: "Your Mongolian adventure kicks off in the capital of Mongolia—Ulaanbaatar. With a rich Buddhist past and flourishing modern touches, Ulaanbaatar is the largest city in Mongolia and one of the fastest-growing in Asia. The culture, food, and attitude of its residents reflect this bustling spirit. Get settled in on your first day and check in to the centrally located hotel, your home for the next night. We take you through the main square where happened major events and celebrations during the socialist era, to the doorsteps of ancient Buddhist temples and the National History museum introducing Mongolia's history from early humans to the modern era. Let's then attend a Traditional Mongolian authentic performance including folk dances, throat singing, and contortion at the Tumen Ekh Ensemble. Welcoming dinner meet and greet will see you get to know your new travel family before we put you at total ease by introducing your Mongolia tour itinerary. So, you'll be more organized with the program and closer knowledge about your tour. Landing a few days before? No worries! Your airport pickup is included for any day before the tour and we can organize any extra nights required at the centrally located accommodation.",
             location: {
@@ -56,12 +56,12 @@ var config = {
                 center: [94.96487, 47.41337],
                 zoom: 9,
                 pitch: 45.00,
-                bearing: 7.56
+                bearing: 0
             },
             onChapterEnter: [
                 {
                     layer: 'DAY-3',
-                    opacity: 0.25
+                    opacity: 0
                 }
             ],
             onChapterExit: []
@@ -74,8 +74,8 @@ var config = {
             location: {
               center: [95.03046, 47.38899],
               zoom: 9,
-              pitch: 60.00,
-              bearing: 7.56
+              pitch: 45.00,
+              bearing: 0
             },
             onChapterEnter: [],
             onChapterExit: []
@@ -117,7 +117,7 @@ var config = {
                 center: [97.65189, 48.00664],
                 zoom: 9.03,
                 pitch: 60.00,
-                bearing: 10.4
+                bearing: 0
             },
             onChapterEnter: [],
             onChapterExit: []
@@ -155,8 +155,7 @@ var config = {
             title: 'Day 11 RIDING 20km: RIDE TO THE LOWER VALLEY AND LAKES',
             image: 'https://cdn.greensoft.mn/uploads/users/1492/images/HORSE_Fotor.jpg',
             description: 'This morning we meet our next team of Mongolian horses and local horse guides for the next 2 days. These days, we ride across the sacred valleys of Khangai massif where we will do a great ride across the mountains and up to the high side lakes. This wonderful valley contrasts with the previous landscapes of the mountain, with beautiful flora. Also, we learn more about the everyday life of nomads and gain knowledge about the horse culture in Mongolia with welcome guidance by the herders during our stay. Our nomad family owned horses, cows, goats, and sheep. At this altitude (about 2500meters), the cows are replaced with yaks and hybrids by nomad families.  First, we will ride down valley and across plains and reach Lake. This wild lake is lined with forests. Enjoy a lakeside picnic and cool off your feet in its cold waters that delight you. After lunch, we will return to our previous camp, again traversing stunning mountain trails.',
-
-      .      location: {
+            location: {
                 center: [100.48985, 48.40453],
                 zoom: 9.28,
                 pitch: 60.00,
